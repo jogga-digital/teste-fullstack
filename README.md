@@ -41,7 +41,7 @@ Você será responsável por integrar a próxima landing page de um de nossos cl
 
 * Utilização de dependency managers (composer, pip, npm, yarn) para instalação de bibliotecas utilizadas no projeto.
 
-* O formulário deve possuir como campos obrigatórios Nome(*name*), E-mail(*email*), Telefone(*phone*) e os outros campos podem ser considerados como opcional.
+* O formulário deve possuir como campos obrigatórios Nome(*name*), E-mail(*email*), Telefone(*phone*) e caso queira adicionar novos campos, esses campos podem ser considerados como opcional.
 
 * Desenvolver método para submissão do formulário, este deverá ser uma requisção do tipo **POST**, além dos dados visíveis no formulário é necessário que seja enviado um  parâmetro *code* que não será visivel para o usuário da página mas que será enviado na requisição para identificação do lead.
 

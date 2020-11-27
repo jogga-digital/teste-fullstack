@@ -1,0 +1,241 @@
+<!-- cabeçalho -->
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="icon" href="images/misc/favicon.png">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css" type="text/css">
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.min.js"></script>
+    <title>Nacional Veículos - </title>
+</head>
+
+<body>
+    <main class="content">
+        <!-- cabeçalho -->
+        <header class="header">
+            <div class="header__logo"><img src="images/misc/logo.png" alt="imagem contem a logo da Nacional Veículos"></div>
+        </header>
+        <!-- destaque -->
+        <section class="featured">
+            <div>
+                <h1 class="featured__head"><span>UP!</span><br>Feito de novas ideias. <small></small></h1>
+            </div>
+            <header class="featured__heading">
+                <figure class="featured__img"><img src="images/carros/up/banner.png" alt="Imagem contem a foto de um UP"></figure>
+            </header>
+            <div class="featured__img-back" style="background-image: url(images/bg/circles.png);"></div>
+        </section>
+        <!-- formulário -->
+        <div class="proposal">
+            <form method="post" class="form" id="form">
+                <fieldset class="row">
+                    <legend class="legend">Preencha o formulário e <strong>ganhe condições exclusivas</strong></legend>
+                    <div class="col-sm-4 col-md-12">
+                        <label class="label" for="nome">Nome</label>
+                        <input type="text" name="name" id="nome" class="form-control required">
+                    </div>
+                    <div class="col-sm-4 col-md-12">
+                        <label class="label" for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control required">
+                    </div>
+                    <div class="col-sm-4 col-md-12">
+                        <label class="label" for="telefone">Telefone</label>
+                        <input type="tel" name="phone" id="telefone" minlength="14" class="form-control telefone required">
+                    </div>
+                    <input type="hidden" name="modelo" value="Up!">
+                    <input type="hidden" name="cidade" value="Natal">
+                    <input type="hidden" name="product_id" value="1" id="product">
+                    <div class="col-sm-12 col-md-12">
+                        <button type="button" class="btn btn-register">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="phone"><span class="phone__caption">OU LIGUE AGORA E SAIBA TUDO SOBRE O UP!</span> <a href="tel:00000000" class="phone__number">(84) 2021-0000</a></div>
+        </div>
+        <!-- benefícios -->
+        <section class="benefits">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="beneficio-circulo">
+                        <h1>Tecnologia</h1>
+                        <p>O compacto mais moderno da categoria</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 bg-beneficio" style="background-image: url(images/carros/up/detalhe01.jpg);">
+                    
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-12 col-md-6 box-azul">
+                        <h1>INFOTRIP<br>Computador de Bordo</h1>
+                        <p>Pensando em sempre melhorar sua experiência, o I-System (opcional) concentra informações de rádio, status do telefone e todos os dados do computador de bordo. Já este último avisa sobre consumo de combustível, quilômetros rodados e muito mais. </p>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img src="images/carros/up/detalhe02.png" alt="imagem contem a logo da Nacional Veículos" width="100%">
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6 box-detalhe">
+                            <h1>Sistema de som "Composition Phone"</h1>
+                            <p>Com tela colorida de 5”, o sistema “Composition Phone” permite conectar celular, carro e rádio após instalação do aplicativo “maps + more” (gratuito para Android e iOS). Além disso, conta com entrada auxiliar e SD-Card.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- benefícios -->
+        <section class="benefits">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="destaque-beneficio">
+                        <img src="images/carros/up/destaque01.jpg" alt="imagem contem o Nacional Veículos" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="info-destaque info-destaque-circulo">
+                        <h1>Segurança</h1>
+                        <p class="info-destaque-circulo"><span>Frenagens bruscas? Ele avisa.</span><br>
+                            ESS é o sinal de frenagem de emergência que é acionado quando o pedal de freio for pressionado de forma brusca. O sistema aciona as luzes de alerta como aviso a outros motoristas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- benefícios -->
+        <section class="benefits">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="destaque-beneficio-2">
+                        <img src="images/carros/up/destaque02.jpg" alt="imagem contem o Nacional Veículos" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info-destaque-2">
+                        <h1>Segurança para toda família</h1>
+                        <p>O novo up! possui dois airbags frontais que inflam imediatamente em caso de colisão.  O modelo ainda conta com um sistema ABS/EBD que impede o travamento total das rodas nas frenagens e distribui eletronicamente a força empregada pelos freios. Assim, ele evita derrapagens e oferece mais confiança ao motorista.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 flutuar">
+                    <div class="destaque-beneficio-redondo col-sm-12 col-md-5 col-lg-12">
+                        <img src="images/carros/up/destaque02.jpg" alt="imagem contem o Nacional Veículos">
+                    </div>
+                    <div class="info-destaque-2 central col-sm-12 col-md-6 col-lg-12">
+                        <h1>Farol de Neblina</h1>
+                        <p>Pensando na sua segurança, o farol de neblina amplia a área iluminada quando o carro está em velocidade igual ou inferior a 40 km/h. Ele é acionado automaticamente durante uma conversão.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- benefícios -->
+        <section class="benefits">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="destaque-beneficio-3">
+                        <img src="images/carros/up/destaque03.jpg" alt="imagem contem o Nacional Veículos">
+                    </div>
+                     <div class="info-destaque-3">
+                        <div>
+                        <h1>Interior</h1>
+                        </div>
+                        <div class="flutuar-esquerda">
+                        <p>Para o seu conforto e pensando na praticidade, o up! vem com suporte para celular com entrada USB de série. Assim, suas mãos ficam concentradas onde são mais importantes: no volante.</p>
+                        </div>
+
+                        <div class="complemento">
+                        <h1>Deixe o up! do seu jeito</h1>
+                        <p>O banco do motorista com ajuste de altura foi desenvolvido para que cada um deixe o carro do seu jeito. No banco traseiro, também há novidades: além do ajuste de altura, vem com três apoios de cabeça, para maior conforto e segurança dos passageiros.</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="detalhe">
+                        <img src="images/carros/up/detalhe.png" alt="imagem contem o Nacional Veículos">
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- rodapé -->
+        <section class="location">
+            <div class="location__overlay">
+                <div class="location__address">
+                    <h2 class="head head--size">ENCONTRE A NACIONAL MAIS PRÓXIMA DE VOCÊ</h2>
+                    <ul class="location__nav">
+                        <li class="location__link" data-latitude="-3.7453358" data-longitude="-38.543054">Av. João Pessoa, 3461</li>
+                        <li class="location__link" data-latitude="-3.761512" data-longitude="-38.4935142">Av. Rogaciano Leite, 333 - Salinas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="location__maps" id="mapa"></div>
+        </section>
+        <footer class="footer">
+            <div class="footer__logo"><img src="images/misc/logo.png" alt="imagem contem a logo da Nacional"></div>
+            <div class="footer__copy">Todos os direitos reservados, 2018.</div>
+            <ul class="footer__social">
+                <li class="item">
+                    <a href="https://www.facebook.com/NacionalVW/" target="_blank">
+                        <svg class="icon">
+                            <use xlink:href="images/svg/svg.svg#face"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <a href="tel:20210000" class="footer__phone">
+                <svg class="icon--phone">
+                    <use xlink:href="images/svg/svg.svg#phone"></use>
+                </svg> <span class="number">(84) 2021-0000</span>
+                <svg class="icon--arrow">
+                    <use xlink:href="images/svg/svg.svg#arrow"></use>
+                </svg>
+            </a>
+
+            <a class="btn-whatsapp whatsapp-flat-button">
+                <img src="images/svg/whatsapp.svg" alt="whatsapp logo"></img>
+            </a>
+        </footer>
+
+        <div class="container-fluid" id="modal-whatsapp">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="modal-whatsapp-wrapper">
+                        <div class="modal-header">
+                            <h3>Deixe uma mensagem pelo<br><span>Whatsapp</span></h3>
+                            <div id="modal-close">&times;</div>
+                        </div>
+                        <div class="modal-body">
+                            <form id="form-whatsapp">
+                                <div class="form-group">
+                                    <input placeholder="Nome" class="form-control" type="text" name="name" id="name">
+                                  </div>
+                                  <div class="form-group">
+                                    <input placeholder="E-mail" class="form-control" type="email" name="email" id="email">
+                                  </div>
+                                <div class="form-group">
+                                    <input placeholder="Telefone" class="form-control" type="tel" name="phone" id="phone">
+                                </div>
+                                <button id="send">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- scripts -->
+        <script src="js/scripts.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD53P6HzQvzMs9vVJgBi79xQsxa5g3YTUU"></script>
+        <script src="js/maps.js"></script>
+        <script src="js/validate.min.js"></script>
+        <script src="js/main.js"></script>
+    </main>
+</body>
+
+</html>
